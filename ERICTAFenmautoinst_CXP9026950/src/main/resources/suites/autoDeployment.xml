@@ -1,0 +1,7 @@
+<suite name="autoDeployment" >
+    <test name="autoDeployment">
+        <classes>
+            <class name="com.ericsson.ci.cloud.enm_auto_install.test.cases.autoDeploymentEnvironmentSetUp" />
+        </classes>
+    </test>
+</suite>

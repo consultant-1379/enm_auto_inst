@@ -1,0 +1,9 @@
+This module builds a testware artifact.
+The plugin is configured centrally for all testware in the integration pom.
+
+After a release version (non SNAPSHOT) is built the CI Fwk database needs to be updated.
+This update is triggered when this file, testware, is present.
+Rename this file, using 'git mv', to temporarily disable updates of the datebase.
+
+For more information on testware please see the confluence page at
+http://confluence-oss.lmera.ericsson.se/display/CIOSS/Testware+management
